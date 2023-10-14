@@ -31,12 +31,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/cerberauth/vulnapi.cerberauth.com/',
+            'https://github.com/cerberauth/vulnapi.cerberauth.com/tree/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/cerberauth/vulnapi.cerberauth.com/',
+            'https://github.com/cerberauth/vulnapi.cerberauth.com/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -48,12 +48,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo-no-background.png',
       navbar: {
         title: 'VulnAPI',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'VulnAPI',
           src: 'img/logo.svg',
         },
         items: [
