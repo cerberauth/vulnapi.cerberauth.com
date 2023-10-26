@@ -11,6 +11,7 @@ const config = {
 
   url: 'https://vulnapi.cerberauth.com',
   baseUrl: '/',
+  trailingSlash: true,
 
   organizationName: 'cerberauth',
   projectName: 'vulnapi',
