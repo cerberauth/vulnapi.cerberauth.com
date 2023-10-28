@@ -86,10 +86,10 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/vulnapi',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/vulnapi',
+              // },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/cerberauth',
