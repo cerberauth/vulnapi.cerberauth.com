@@ -1,3 +1,7 @@
+---
+description: A vulnerability occurs when a JSON Web Token (JWT) is signed with an empty secret. In this scenario, the token lacks proper cryptographic protection, making it susceptible to manipulation.
+---
+
 # Accept JWT blank secret
 
 <table>
@@ -30,7 +34,7 @@
     </tr>
 </table>
 
-Short Description
+A vulnerability occurs when a JSON Web Token (JWT) is signed with an empty secret. In this scenario, the token lacks proper cryptographic protection, making it susceptible to manipulation. Attackers can modify the token's claims and content without detection, potentially leading to unauthorized access and data tampering.
 
 ## Example
 

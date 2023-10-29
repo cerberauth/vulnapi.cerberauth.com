@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'VulnAPI',
-  tagline: '',
+  tagline: 'Let\'s detect vulnerabilities and secure your API.',
   favicon: 'img/favicon.ico',
 
   url: 'https://vulnapi.cerberauth.com',
@@ -59,9 +59,14 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docs',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
+          },
+          {
+            label: 'Vulnerabilities',
+            to: '/docs/vulnerabilities/',
+            position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -78,8 +83,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/getting-started/',
+              },
+              {
+                label: 'Best API Security Practices',
+                to: '/docs/best-practices/',
+              },
+              {
+                label: 'API Security Vulnerabilities',
+                to: '/docs/vulnerabilities/',
               },
             ],
           },
@@ -99,6 +112,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'CerberAuth',
+                href: 'https://www.cerberauth.com/',
+              },
               {
                 label: 'Blog',
                 to: '/blog',

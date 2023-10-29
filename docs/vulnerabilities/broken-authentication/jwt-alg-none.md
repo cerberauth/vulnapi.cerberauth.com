@@ -1,3 +1,7 @@
+---
+description: Accepting the "none" algorithm in a JSON Web Token (JWT) occurs when a JWT is signed with the "none" algorithm, it means there is no signature, making it easy for attackers to tamper with the token's content without detection.
+---
+
 # JWT None algorithm accepted
 
 <table>
@@ -32,7 +36,7 @@
     </tr>
 </table>
 
-Short Description
+Accepting the "none" algorithm in a JSON Web Token (JWT) occurs when a JWT is signed with the "none" algorithm, it means there is no signature, making it easy for attackers to tamper with the token's content without detection. This can lead to unauthorized access and data manipulation.
 
 ## Example
 
