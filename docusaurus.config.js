@@ -68,7 +68,16 @@ const config = {
             to: '/docs/vulnerabilities/',
             position: 'left',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/labs',
+            label: 'Labs',
+            position: 'left',
+          },
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'right',
+          },
           {
             href: 'https://github.com/cerberauth/vulnapi',
             label: 'GitHub',
@@ -94,6 +103,10 @@ const config = {
                 label: 'API Security Vulnerabilities',
                 to: '/docs/vulnerabilities/',
               },
+              {
+                label: 'API Vulnerabilities Labs',
+                to: '/labs/',
+              }
             ],
           },
           {

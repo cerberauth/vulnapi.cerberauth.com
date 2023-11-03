@@ -44,7 +44,7 @@ const sidebars = {
         'vulnerabilities/broken-authentication/jwt-cross-service-relay-attack',
         'vulnerabilities/broken-authentication/jwt-null-signature',
       ]
-    }
+    },
   ],
 };
 
