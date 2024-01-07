@@ -49,12 +49,12 @@ const config: Config = {
 
   themeConfig:
     {
-      image: 'img/logo-no-background.png',
+      image: 'logo-no-background.png',
       navbar: {
         title: 'VulnAPI',
         logo: {
           alt: 'VulnAPI',
-          src: 'img/logo.svg',
+          src: 'logo.svg',
         },
         items: [
           {
