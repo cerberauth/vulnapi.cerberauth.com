@@ -17,6 +17,10 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  scripts: [
+    { src: 'https://a.cerberauth.com/js/script.js', defer: true, 'data-domain': 'vulnapi.cerberauth.com' },
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
