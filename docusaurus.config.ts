@@ -21,6 +21,10 @@ const config: Config = {
     { src: 'https://a.cerberauth.com/js/script.js', defer: true, 'data-domain': 'vulnapi.cerberauth.com' },
   ],
 
+  plugins: [
+    require.resolve('docusaurus-lunr-search')
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -72,11 +76,6 @@ const config: Config = {
             to: '/labs',
             label: 'Labs',
             position: 'left',
-          },
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'right',
           },
           {
             href: 'https://github.com/cerberauth/vulnapi',
