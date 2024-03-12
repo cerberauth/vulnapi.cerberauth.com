@@ -25,7 +25,10 @@ const sidebars: SidebarsConfig = {
         slug: '/best-practices/',
       },
       collapsed: true,
-      items: ['best-practices/security-headers']
+      items: [
+        'best-practices/graphql-introspection',
+        'best-practices/security-headers',
+      ]
     },
     {
       type: 'category',
