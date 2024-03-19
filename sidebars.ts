@@ -27,7 +27,7 @@ const sidebars: SidebarsConfig = {
         description: 'Discover API Security best practices',
         slug: '/best-practices/',
       },
-      collapsed: true,
+      collapsed: false,
       items: [
         'best-practices/graphql-introspection',
         'best-practices/security-headers',
