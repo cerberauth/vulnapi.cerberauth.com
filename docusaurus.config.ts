@@ -18,7 +18,7 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
 
   scripts: [
-    { src: 'https://a.cerberauth.com/js/script.js', defer: true, 'data-domain': 'vulnapi.cerberauth.com' },
+    { src: 'https://a.cerberauth.com/js/script.outbound-links.js', defer: true, 'data-domain': 'vulnapi.cerberauth.com' },
   ],
 
   plugins: [
