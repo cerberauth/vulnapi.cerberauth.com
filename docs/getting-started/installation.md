@@ -5,10 +5,52 @@ slug: /installation/
 
 # Installation
 
-Before making your first scan with VulnAPI you have to download and install it. Please follow the instructions below:
+You can installed pre-built binaries of VulnAPI on Linux, Windows, and MacOS.
 
-- Download the binary from the latest [VulnAPI release](https://github.com/cerberauth/vulnapi/releases) or install it with Snap : `sudo snap install vulnapi`.
-- Test VulnAPI command running: `vulnapi help`
+Below are the instructions to install VulnAPI on Linux, Windows, MacOS, and Docker. You can choose the installation method that best suits your needs and environment.
+
+## Linux
+
+### Snap
+
+You can install VulnAPI on Linux using [Snap](https://snapcraft.io/vulnapi).
+
+```bash
+sudo snap install vulnapi
+```
+
+### APT
+
+Download the latest [VulnAPI release](https://github.com/cerberauth/vulnapi/releases?ref=deb) and install it using `dpkg`.
+
+```bash
+sudo dpkg -i vulnapi.deb
+```
+
+### RPM
+
+Download the latest [VulnAPI release](https://github.com/cerberauth/vulnapi/releases?ref=rpm) and install it using `dpkg`.
+
+```bash
+sudo rpm -i vulnapi.rpm
+```
+
+### Other
+
+You can install VulnAPI on Linux by downloading the latest [VulnAPI release](https://github.com/cerberauth/vulnapi/releases?ref=other) and extracting the contents of the ZIP file. After extracting the contents, run the `vulnapi` binary from the command line.
+
+## Windows
+
+You can install VulnAPI on Windows by downloading the latest [VulnAPI release](https://github.com/cerberauth/vulnapi/releases?ref=windows) and extracting the contents of the ZIP file. After extracting the contents, you can run the `vulnapi.exe` binary from the command line.
+
+## MacOS (Homebrew)
+
+You can install VulnAPI on MacOS using Homebrew. To do so, run the following command:
+
+```bash
+brew tap cerberauth/vulnapi
+brew install vulnapi
+```
 
 ## Docker
 
