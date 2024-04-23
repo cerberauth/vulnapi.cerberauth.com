@@ -27,9 +27,8 @@ const sidebars: SidebarsConfig = {
         description: 'Discover API Security best practices',
         slug: '/best-practices/',
       },
-      collapsed: false,
+      collapsed: true,
       items: [
-        'best-practices/graphql-introspection',
         'best-practices/security-headers',
       ]
     },
@@ -37,10 +36,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Vulnerabilities',
       link: {
-        type: 'generated-index',
-        title: 'API Vulnerabilities',
-        description: 'Discover API vulnerabilities',
-        slug: '/vulnerabilities/',
+        type: 'doc',
+        id: 'vulnerabilities/index',
       },
       collapsed: true,
       items: [
@@ -48,6 +45,7 @@ const sidebars: SidebarsConfig = {
         'vulnerabilities/broken-authentication/jwt-blank-secret',
         'vulnerabilities/broken-authentication/jwt-cross-service-relay-attack',
         'vulnerabilities/broken-authentication/jwt-null-signature',
+        'vulnerabilities/security-misconfiguration/graphql-introspection',
       ]
     },
   ],

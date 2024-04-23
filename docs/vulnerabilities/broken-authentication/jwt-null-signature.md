@@ -2,7 +2,7 @@
 description: JWT Null Signature vulnerability occurs when a JSON Web Token (JWT) lacks a signature part, allowing attackers to manipulate the token's content.
 ---
 
-# JWT Null signature
+# JWT Null Signature
 
 <table>
     <tr>

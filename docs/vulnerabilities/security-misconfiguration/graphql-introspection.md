@@ -2,7 +2,7 @@
 description: GraphQL introspection is a feature that allows clients to query the schema of the server. It can be used to discover the schema and types, but it can also be used by attackers to learn about the server's implementation details and find potential vulnerabilities.
 ---
 
-# GraphQL Introspection Security
+# GraphQL Introspection Enabled
 
 <table>
     <tr>
@@ -24,7 +24,7 @@ description: GraphQL introspection is a feature that allows clients to query the
     <tr>
         <th>OWASP Category</th>
         <td>
-            <a href="https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication/">OWASP API2:2023 Broken Authentication</a>
+            <a href="https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication/">OWASP API8:2023 Security Misconfiguration</a>
         </td>
     </tr>
 </table>
