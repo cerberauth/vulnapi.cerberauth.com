@@ -31,7 +31,8 @@
 | CSP Header Not Set                                                                                    | API8:2023 Security Misconfiguration         | Info     | :white_check_mark: |
 | CSP Frame Ancestors Not Set                                                                           | API8:2023 Security Misconfiguration         | Info     | :white_check_mark: |
 | HSTS Header Not Set                                                                                   | API8:2023 Security Misconfiguration         | Info     | :white_check_mark: |
-| HTTP Trace Method Enabled                                                                             | API8:2023 Security Misconfiguration         | Info     | :white_check_mark: |
+| HTTP TRACE Method Enabled                                                                             | API8:2023 Security Misconfiguration         | Info     | :white_check_mark: |
+| HTTP TRACK Method Enabled                                                                             | API8:2023 Security Misconfiguration         | Info     | :white_check_mark: |
 | Server Signature Leak                                                                                 | API8:2023 Security Misconfiguration         | Info     | :white_check_mark: |
 | SSL Certificate Not Trusted                                                                           | API8:2023 Security Misconfiguration         | Medium   | |
 | SSL Not Enforced                                                                                      | API8:2023 Security Misconfiguration         | Medium   | |
