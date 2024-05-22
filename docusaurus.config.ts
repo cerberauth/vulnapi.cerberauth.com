@@ -82,6 +82,11 @@ const config: Config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://vulnapi.cerberauth.com/discord',
+            label: 'Discord',
+            position: 'right',
+          }
         ],
       },
       footer: {
@@ -102,22 +107,22 @@ const config: Config = {
                 label: 'API Security Vulnerabilities',
                 to: '/docs/vulnerabilities/',
               },
-              {
-                label: 'API Vulnerabilities Labs',
-                to: '/labs/',
-              }
             ],
           },
           {
             title: 'Community',
             items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/vulnapi',
-              // },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/cerberauth',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/cerberauth/vulnapi',
+              },
+              {
+                label: 'Discord',
+                href: 'https://vulnapi.cerberauth.com/discord',
               },
             ],
           },
@@ -129,13 +134,9 @@ const config: Config = {
                 href: 'https://www.cerberauth.com/',
               },
               {
-                label: 'Blog',
+                label: 'VulnAPI Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/cerberauth/vulnapi',
-              },
+              }
             ],
           },
         ],
