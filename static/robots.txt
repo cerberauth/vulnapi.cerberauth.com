@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vulnapi.cerberauth.com/sitemap.xml
